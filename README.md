@@ -1,3 +1,4 @@
+<img src="https://travis-ci.org/basicus/cuba-petclinic.svg?branch=master"/>
 # CUBA Petclinic
 
 <p align="center">
