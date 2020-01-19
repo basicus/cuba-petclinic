@@ -8,6 +8,7 @@ before_install:
 
 install:
   - ./gradlew --no-daemon assemble
+script: echo "Success!"
 
 cache:
   directories:
