@@ -4,11 +4,13 @@ jdk: openjdk8
 
 before_install:
   - chmod +x ./gradlew
+  - ./gradlew --no-daemon startDb createDb
 
 
 install:
   - ./gradlew --no-daemon assemble
-script: echo "Success!"
+script:
+  - ./gradlew --no-daemon test
 
 cache:
   directories:
